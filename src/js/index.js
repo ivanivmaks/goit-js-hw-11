@@ -1,5 +1,7 @@
-const fetchUsersBtn = document.querySelector('.btn');
-const userList = document.querySelector('.user-list');
+import refs from './refs';
+
+const fetchUsersBtn = refs.searchBtn;
+const userList = refs.galeryUl;
 
 fetchUsersBtn.addEventListener('click', async () => {
   try {
